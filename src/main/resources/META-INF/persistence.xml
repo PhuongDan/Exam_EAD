@@ -4,8 +4,9 @@
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
              version="2.1">
     <persistence-unit name="sis" transaction-type="RESOURCE_LOCAL">
-        <class>com.example.Student</class>
-        <class>com.example.Subject</class>
+        <class>com.example.exam_ead.entity.Student</class>
+        <class>com.example.exam_ead.entity.Subject</class>
+        <class>com.example.exam_ead.entity.StudentScore</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sis"/>
